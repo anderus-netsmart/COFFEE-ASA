@@ -14,5 +14,4 @@ def contacto():
     print(f"Mensaje recibido de {nombre} ({correo}): {mensaje}")
     return "Gracias por tu mensaje. Te responderemos pronto."
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# Render usará gunicorn para ejecutar esta app, no es necesario app.run()
